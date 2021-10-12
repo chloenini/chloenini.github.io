@@ -1,0 +1,54 @@
+
+
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+   text-shadow:0px 5px 10px #8a0cdf,4px -3px 0px #be34e5;
+    color:white;
+}
+
+h1: {
+    background-color: indianred;
+}
+
+
+.question {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 20px;
+    color: ghostwhite;
+    letter-spacing: .4px
+
+}
+
+.answer {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: unset;
+    color: ghostwhite;
+
+
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#grad {
+    background-image: linear-gradient(red, yellow)
+}
+body, html {
+  height: 100%;
+}
+
+

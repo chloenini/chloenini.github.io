@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+}
+
+.example {
+	font-size: 50px;
+
+}
+.example: hover {
+	background-color: limegreen;
+	cursor: pointer;
+}
+div {
+  background-color: hotpink;
+  transition: background-color .5s;
+}
+
+div:hover {
+  background-color: limegreen;
+}
+span {
+  font-size: 40px;
+}
+div {
+	font-size: 20px;
+}
+span {
+	font-family: sans-serif;
+}
+div {
+	font-weight: 400;
+}
+div {
+	font-stretch: condensed;
+}
+div{
+	font-family: monospace;
+}
+span {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+h1{
+	font-family: sans-serif;
+}
+h1{
+	font-size: 60px;
+}
+h1:hover {
+	background-color: yellow;
+}
+h1:hover
