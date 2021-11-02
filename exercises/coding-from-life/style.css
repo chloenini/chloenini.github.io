@@ -1,0 +1,304 @@
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: lightpink;
+  margin: 30px auto;
+  position: relative;
+}
+
+
+
+element.style {
+}
+.vase {
+    width: 100px;
+    height: 200px;
+    background-color: lightblue;
+    top: 240px;
+    left: 420px;
+    position: absolute;
+}
+
+
+.stem2 {
+    width: 8px;
+    height: 200px;
+    background: darkgreen;
+    position: relative;
+    left: -50px;
+    top: -208px;
+    transform: rotate(15deg);
+}
+.stem3 {
+  width: 8px;
+  height: 200px;
+
+  background-color: darkgreen;
+  position: absolute;
+  left: -10px;
+  top: -209px;
+}
+.table {
+    width: 1000px;
+    height: 200px;
+    left: 0px;
+    top: 500px;
+    background-color: floralwhite;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.whitepumpkin {
+    width: 190px;
+    height: 90px;
+    border-radius: 40%;
+    background-color: beige;
+    top: 480px;
+    left: 374px;
+    bottom: 20px;
+    position: absolute;
+    border: 0.3px solid saddlebrown;
+    z-index: 1;
+    transform: rotate(158deg);
+    
+}
+
+
+.floral-arrangement {
+  
+  height: 100px;
+  width:  100px;
+  position:  absolute;
+  bottom:  50px;
+  left:  500px;
+}
+
+
+
+.pumpkin{
+  height: 150px;
+  width: 200px;
+  background: #f68632;
+  border: 4px solid #a14907;
+  border-radius: 70%/110%;
+  position: absolute;
+  bottom: 50px;
+  left: 600px;
+  box-shadow: inset 0 0px 20px #a14907, 0 0 30px -4px red;
+  z-index: 1;
+}
+.pumpkin .surface{
+  height: 10.8em;
+  width: 6.5em;
+  position: absolute;
+  bottom: -0.4em;
+  left: 4em;
+  border-radius: 70%/110%;
+  border-bottom: 0.5em solid #a14907;
+  border-top: 0.5em solid #a14907;
+}
+.pumpkin .surface{
+  height: 10.8em;
+  width: 6.5em;
+  position: absolute;
+  bottom: -0.4em;
+  left: 4em;
+  border-radius: 70%/110%;
+  border-bottom: 0.5em solid #a14907;
+  border-top: 0.5em solid #a14907;
+}
+
+.pumpkin .surface:after{
+  content: "";
+  display: block;
+  height: 10.7em;
+  width: 12em;
+  position: absolute;
+  bottom: -0.4em;
+  left: -2.5em;
+  border-radius: 70%/110%;
+  border-bottom: .05em solid #a14907;
+  border-top: 0.5em solid #a14907;
+}
+ .triangle {
+      width: 3px;
+      height: 1px;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid lightblue;
+      position: absolute;
+      bottom: 70px;
+      left: 418px;
+    }
+
+    .circle 
+  {
+  width: 30px;
+  height: 50px;
+  background: saddlebrown;
+  position: absolute;
+  bottom: 195px;
+  left: 685px;
+} 
+.square {
+  width: 20px;
+  height: 30px;
+  background: saddlebrown;
+  position: absolute;
+  bottom: 700px;
+  left: 450px;
+}
+
+.handle {
+   width: 50px;
+  height: 80px;
+  background-color: gold;
+
+  position: absolute;
+  top: 300px;
+  left:  300px;
+  z-index: 1;
+
+}
+.rectangle {
+  width: 9px;
+  height: 200px;
+  background-color: gold;
+
+  position: absolute;
+  top: 300px;
+  left:  320px;
+  z-index: 1;
+}
+
+.circle-chandelier {   
+      width: 100px;
+      height: 50px;
+      background: gold;
+      border-radius: 100px / 50px;
+      position: absolute;
+      bottom: 60px;
+      left:277px ;
+      transform: rotate(170deg);
+      z-index: 2;
+    }
+
+
+   .rectangle2 {
+  width: 9px;
+  height: 200px;
+  background-color: gold;
+
+  position: absolute;
+  top: 200px;
+  left:  650px;
+}
+  
+    .candle{
+
+  width: 20px;
+  height: 100px;
+  background: white;
+  top: 200px;
+  left: 313px;
+  position: absolute;
+
+    }
+    .handle2 {
+      width: 50px;
+  height: 80px;
+  background-color: gold;
+
+  position: absolute;
+  top: 200px;
+  left:  630px;
+
+    }
+
+    .wpstem 
+    {
+  width: 10px;
+  height: 30px;
+  background: saddlebrown;
+  position: absolute;
+  bottom: 100px;
+  left: 564px;
+  transform: rotate(64deg);
+} 
+
+.pumpkin-lid {
+  background: #462317;
+  border: 2px solid black;
+  width: 10px;
+  height: 25px;
+  top: 330px;
+  left: 230px;
+  border-radius: 76px;
+  position: absolute;
+
+}
+
+.pumpkin-topper {
+  background: #462317;
+  border: 2px solid black;
+  width: 150px;
+  height: 25px;
+  top: 355px;
+  left: 160px;
+  border-radius: 76px;
+  position: absolute;
+  
+}
+
+
+.pumpkin-vase {
+  background: #462317;
+  border: 2px solid black;
+  width: 226px;
+  height: 159px;
+  position: absolute;
+  left: 119px;
+  bottom: 53px;
+  border-radius: 150px;
+ 
+}
+
+.eye-1 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 60px solid black;
+}
+
+.eye-2 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 60px solid black;
+}
+
+.grin {
+  border-bottom: 40px solid black;
+  border-left: 65px solid transparent;
+  border-right: 52px solid transparent;
+  height: 0;
+  width: 30px;
+  position: absolute;
+  bottom: 5px;
+  left: 47px;
+  transform: rotate(180deg);
+}
+

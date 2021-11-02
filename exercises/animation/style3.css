@@ -1,0 +1,40 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+svg {
+  height: 1000px;
+  animation: smileySpin 3s;
+  
+}
+
+@keyframes smileySpin {
+
+0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+svg {
+  animation: smileySpin 5s ease-out infinite;
+  height:1000px;
+}
