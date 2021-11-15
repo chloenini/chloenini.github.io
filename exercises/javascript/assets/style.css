@@ -1,0 +1,46 @@
+
+
+
+body {
+  background-color:  lightskyblue;
+}
+
+section {
+  display:  flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items:  center;
+  height:  90vh;
+}
+
+.button {
+ 
+
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      box-shadow: 20px 20px 0 0 lightyellow;
+    
+  
+  font-size: 20px;
+  color: lightpink;
+  text-align:  center;
+  font-family: sans-serif;
+  transition:  all 1500ms;
+  left: 20px;
+
+}
+
+.button:hover {
+  background-color: yellow;
+  cursor:  pointer;
+}
+
+.buttonOn {
+  background-color:  black;
+  color:  white;
+}
+
+.light {
+  background-color: black;
+}
