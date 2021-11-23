@@ -1,0 +1,138 @@
+
+body{
+    background-color:  #EAD8BD;
+    margin: 0px;
+    padding: 0px;
+ ; font-family: Bebas Neue;
+}
+
+.circle1 {
+
+  width: 300px;
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+
+}
+
+img {
+  height: 270px;
+  width: auto;
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+
+.circle2 {
+width: 300px;
+  position: absolute;
+  left: 380px;
+  top: 60px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+
+
+.circle3 {
+width: 300px;
+  position: absolute;
+  left: 710px;
+  top: 60px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+img .circle3 {
+
+  position: absolute;
+width: 100px;
+height: 338px;
+left: 802.07px;
+top: 0px;
+
+
+}
+
+
+.circle4{
+  width: 300px;
+  position: absolute;
+  left: 1040px;
+  top: 60px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+img .circle4{
+
+position: absolute;
+width: 200px;
+height: 333px;
+left: 1139px;
+top: 67.5px;
+
+transform: rotate(-1.26deg);
+}
+
+.circle5{
+  width: 300px;
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+
+.circle6{
+  width: 300px;
+  position: absolute;
+  left: 380px;
+  top: 400px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+
+.circle7{
+  width: 300px;
+  position: absolute;
+  left: 710px;
+  top: 400px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+
+.circle8{
+  width: 300px;
+  position: absolute;
+  left: 1040px;
+  top: 400px;
+  height: 300px;
+  background: rgba(189, 8, 8, 0.8);
+  border-radius: 50%
+
+}
+BUTTON{
+  font-weight: 400px;
+font-size: 26px;
+padding: 0px 50px 0px 50px;
+background-color: #EAD8BD ;
+font-family: Bebas Neue, cursive;
+}
+
+
+
+
