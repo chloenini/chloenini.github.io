@@ -3,13 +3,14 @@ body{
     margin: 0px;
     padding: 0px;
  ; font-family: Bebas Neue;
+ position: relative;
 }
 h1 {
-    position: absolute;
+    /*position: absolute;
 width: 501px;
 height: 271px;
 left: 477px;
-top: 232px;
+top: 232px;*/
 
 font-family: Shrikhand;
 font-style: italic;
@@ -19,6 +20,9 @@ line-height: 210px;
 text-align: center;
 
 color: rgba(189, 8, 8, 0.8);
+}
+a {
+    text-decoration: none;
 }
 button{
 font-weight: 400px;
@@ -34,6 +38,7 @@ padding: 0px 50px 0px 50px;
 background-color:#EAD8BD ;
 } 
 
+
 #flexbox {
     display: flex ;
     flex-wrap: flex;
@@ -42,23 +47,39 @@ background-color:#EAD8BD ;
 #menu {
     width: 100vw;
     height: 10vh;
-    background-color: ;
 }
 #body {
     width: 100vw;
     height: 90vh;
-    background-color: ;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#trianglecontainer{
+
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 90vh;
+    z-index: -2;
 
 }
 #triangle{
-
+      
       width: 0vw;
       height: 0vh;
       border-left: 35vh solid transparent;
       border-right: 35vh solid transparent;
       border-top: 70vw solid beige;
-      margin: 0 auto 0 auto;
+      margin: auto;
       stroke: 5px;
+     
+      
     }
 
 @media (max-width: 650px) {
@@ -67,21 +88,32 @@ background-color:#EAD8BD ;
     color:  white;
   }
 }
-H2{
-    position: absolute;
+h2{
+    /*position: absolute;
 width: 465px;
 height: 43px;
 left: 495px;
-top: 490px;
+top: 490px;*/
 
 font-family: Bebas Neue;
 font-style: normal;
 font-weight: normal;
 font-size: 36px;
 line-height: 43px;
+top: 0;
+text-align: center;
 
 color: rgba(189, 8, 8, 0.92);
 
 }
+
+#center {
+    margin: 0 auto 0 auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
 
 

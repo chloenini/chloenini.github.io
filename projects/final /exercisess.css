@@ -1,0 +1,30 @@
+
+body {
+  position: relative;
+}
+
+#imagegrid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color: rgba(215, 247, 204, 0.8);
+
+}
+#imagecontainer{
+  width: 30vw;
+  height: 30vw;
+  margin: 1.5vw;
+ 
+  background-color: rgba(215, 247, 204, 0.8);
+
+}
+
+img {
+ width: 30vw;
+  height: 30vw;
+
+
+}
+img:hover {
+  opacity: 28%;
+}
