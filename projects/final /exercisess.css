@@ -1,6 +1,8 @@
 
 body {
   position: relative;
+  background-color: rgba(215, 247, 204, 0.8);
+  text-decoration: none;
 }
 
 #imagegrid{
@@ -16,6 +18,7 @@ body {
   margin: 1.5vw;
  
   background-color: rgba(215, 247, 204, 0.8);
+  text-decoration: none;
 
 }
 
@@ -27,4 +30,11 @@ img {
 }
 img:hover {
   opacity: 28%;
+}
+
+p{
+  font-size: 20px;
+  font-family: bebas neue;
+  color: hotpink;
+  text-decoration: none;
 }

@@ -1,13 +1,13 @@
 body {
   position: relative;
-  background-color: lightskyblue;
+  background-color: rgba(215, 247, 204, 0.8);
 }
 
 #imagegrid{
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  background-color: lightskyblue;
+  background-color: rgba(215, 247, 204, 0.8);
 
 }
 #imagecontainer{
@@ -15,7 +15,7 @@ body {
   height: 30vw;
   margin: 1.5vw;
  
-  background-color: hotpink;
+  background-color: rgba(215, 247, 204, 0.8);
 
 }
 
@@ -27,4 +27,10 @@ img {
 }
 img:hover {
   opacity: 50%;
+}
+p{
+  font-size: 20px;
+  font-family: bebas neue;
+  color: hotpink;
+  text-decoration: none;
 }
