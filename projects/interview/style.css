@@ -3,7 +3,8 @@ body {
     background: radial-gradient(circle, deeppink, orange, yellow,lightgreen,lightblue);
       height: 100%;
       margin: 0 auto;
-      max-width: 600px;
+      max-width: 700px;
+
 }
 
 
@@ -34,9 +35,40 @@ h1: hover {
 
 }
 
-
-
 #grad {
     background-image: linear-gradient(red, yellow)
 }
 
+#flexbox {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin: 5vw;
+}
+button{
+font-weight: 50px;
+font-size: 40px;
+padding: 0px 20px 0px 20px;
+font-family: Bebas Neue, cursive;
+position: relative;
+top: 20px;
+left: 20px;
+border-style: none;
+color: cyan;
+background-color: orange;
+
+
+
+}
+button: hover {
+    opacity: 50%;
+}
+
+#menu {
+    width: 50vw;
+    height: 10vh;
+
+}
+a {
+    text-decoration: none;
+}
