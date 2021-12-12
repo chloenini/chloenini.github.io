@@ -1,7 +1,7 @@
 
 body {
   position: relative;
-  background-color: rgba(215, 247, 204, 0.8);
+  background-color: mintcream;
   text-decoration: none;
 }
 
@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  background-color: rgba(215, 247, 204, 0.8);
+  background-color:mintcream;
 
 }
 #imagecontainer{
@@ -17,7 +17,7 @@ body {
   height: 30vw;
   margin: 1.5vw;
  
-  background-color: rgba(215, 247, 204, 0.8);
+  background-color: mintcream;
   text-decoration: none;
 
 }
@@ -35,6 +35,6 @@ img:hover {
 p{
   font-size: 20px;
   font-family: bebas neue;
-  color: pink;
+  color: black;
   text-decoration: none;
 }

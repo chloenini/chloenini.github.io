@@ -1,13 +1,15 @@
+
 body {
   position: relative;
   background-color: mintcream;
+  text-decoration: none;
 }
 
 #imagegrid{
   display: flex;
   flex-wrap: wrap;
   width: 100vw;
-  background-color: mintcream;
+  background-color:mintcream;
 
 }
 #imagecontainer{
@@ -16,6 +18,7 @@ body {
   margin: 1.5vw;
  
   background-color: mintcream;
+  text-decoration: none;
 
 }
 
@@ -26,11 +29,12 @@ img {
 
 }
 img:hover {
-  opacity: 50%;
+  opacity: 28%;
 }
+
 p{
   font-size: 20px;
   font-family: bebas neue;
-  color: black;
+  color: pink;
   text-decoration: none;
 }
