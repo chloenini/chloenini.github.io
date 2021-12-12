@@ -1,0 +1,21 @@
+body {
+	 background-color:  #EAD8BD
+}
+
+h1 {
+ font-family: BEBAS NEUE; cursive
+ font-size: 100px;
+ left: 700px;
+ width: 100px;
+ position: absolute;
+	
+}
+
+p{
+	width: 500px;
+	position: absolute;
+	left: 500px;
+	top: 200px;
+	font-family: arial;
+	font-size: 17px;
+}
