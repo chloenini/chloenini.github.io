@@ -1,0 +1,47 @@
+body {
+	background-color: beige;
+
+}
+h1{
+
+   font-size: 50px;
+   position: absolute;
+   top: -10px;
+   left: 390px;
+   font-family: 'Dancing Script', cursive;
+   color: gold;
+}
+
+
+.subhead {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: gold;
+    position: relative;
+    top: 140px;
+    left: 20px;
+ 
+ 
+}
+
+
+p{
+	position: absolute;
+	top: 90px;
+	width: 1000px;
+	left: 250px;
+	font-family: 'Cardo', serif;
+}
+
+ul{
+	width: 200px;
+	top: 200px;
+	position: absolute;
+	font-family: 'Cardo', serif;
+}
+ol{
+
+	top: 520px;
+	position: absolute;
+	font-family: 'Cardo', serif;
+}
