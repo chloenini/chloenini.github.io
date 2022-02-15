@@ -1,0 +1,26 @@
+body {
+    background-color: hotpink;
+    background: radial-gradient(circle, blue, lightblue,turquoise, cyan, lightgreen,lightblue);
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    display: block;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 40px;
+    max-width: 1200px;
+}
+
+.title{
+    text-decoration-line: underline;
+    font-size: 20px;
+}
+.link{
+    font-size: 50px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.intro{
+    font-style: italic;
+}
