@@ -1,6 +1,6 @@
 body {
-    background-color: hotpink;
-    background: radial-gradient(circle, violet,lightblue,turquoise, violet,lightblue);
+    
+    background: radial-gradient(circle, deeppink, orange, yellow,lightgreen,lightblue);
     height: 100%;
     margin: 0 auto;
     max-width: 800px;
@@ -9,7 +9,6 @@ body {
 }
 h1{
     font-size: 40px;
-    font-family: 'Bebas Neue', cursive;
 }
 
 .title{
@@ -23,4 +22,3 @@ h1{
 }
 .intro{
     font-style: italic;
-}
