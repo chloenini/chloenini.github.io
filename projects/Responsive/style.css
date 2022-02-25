@@ -1,0 +1,76 @@
+@media only screen and (min-width: 992px) {
+   
+  .title{
+ font-family: tuppence, serif;
+ font-size: 70px;
+ color: yellow;
+}
+
+.author{
+ font-family: sans-serif;
+   font-size: 30px;
+   color: lightyellow;
+}
+  body{
+    background: radial-gradient(circle, yellow,orange,pink,coral);
+    color: black;
+    font-family: acumin-pro, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .title{
+ font-family: trilby, serif;
+ font-size: 80px;
+ color:purple ;
+}
+
+.author {
+ 
+   font-size: 20px
+}
+  body{
+    background-color: orange;
+    color: black;
+    font-family: acumin-pro, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 601px)
+{
+  .title{
+ font-family: ;
+ font-size: 100px;
+}
+
+.author {
+ 
+   font-size: 30px;
+}
+  body{
+   background-color: crimson;
+   color: yellow;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .title {
+ color: hotpink;
+ font-family: arial;
+ font-size: 80px;
+ letter-spacing: -2px;
+}
+
+.author {
+ font-family: acumin-pro, sans-serif;
+color: hotpink;
+   font-size: 30px
+}
+  body{
+    background-color: greenyellow;
+    color: black;
+  }
+}
+

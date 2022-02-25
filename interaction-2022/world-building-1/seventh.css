@@ -1,19 +1,20 @@
-body {
+body{
+	
+    text-align: right;
     background-color: hotpink;
-    background: radial-gradient(circle, blue, lightblue,turquoise, cyan, lightgreen,lightblue);
+    background: radial-gradient(circle, green,skyblue,yellow,gold);
     height: 100%;
     margin: 0 auto;
     max-width: 800px;
     display: block;
     font-family: degular, sans-serif;
     font-weight: 200;
-    font-size:20px
-}
-h1{
-    font-size: 50px;
-    font-family: fatfrank, sans-serif;
-    font-weight: 400;
     font-style: normal;
+}
+
+h1{
+    font-size: 40px;
+    
 }
 
 .title{
@@ -24,10 +25,8 @@ h1{
     font-size: 50px;
     text-decoration: none;
     text-decoration-line: none;
+    text-align: left;
 }
 .intro{
     font-style: italic;
-}
-.expand{
-    font-size: 40px;
 }
