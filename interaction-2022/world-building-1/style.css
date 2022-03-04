@@ -18,6 +18,7 @@ font-size: 50px;
 letter-spacing: -1px;
 font-style: normal;
 }
+
 .title{
     text-decoration-line: underline;
     font-size: 20px;
@@ -26,9 +27,21 @@ font-style: normal;
     font-size: 40px;
     text-decoration: none;
     text-decoration-line: none;
+
 }
+
 .intro{
     font-style: italic;
+}
+
+.expand{
+font-family: mono45-headline, monospace;
+
+font-weight: 500;
+font-size: 70px;
+
+font-style: italic;
+color: crimson;
 }
 ul {
   list-style-type: none;

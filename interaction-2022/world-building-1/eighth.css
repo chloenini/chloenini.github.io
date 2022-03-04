@@ -1,17 +1,22 @@
 body {
-    background-color: hotpink;
-    background: radial-gradient(circle, yellow,orange,pink,coral);
+    
+    background: beige;
     height: 100%;
     margin: 0 auto;
     max-width: 800px;
     display: block;
-    font-family: sans-serif;
+    font-family: degular, sans-serif;
+    font-weight: 200;
+    font-size:20px
+
 }
 h1{
-    font-size: 50px;
-    font-family: fatfrank, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+font-family: mono45-headline, monospace;
+
+font-weight: 500;
+font-size: 50px;
+letter-spacing: -1px;
+font-style: normal;
 }
 
 .title{
@@ -19,7 +24,7 @@ h1{
     font-size: 20px;
 }
 .link{
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     text-decoration-line: none;
 }
@@ -29,4 +34,27 @@ h1{
 .headline{
     font-size: 25px;
     font-style: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 50px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 30px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkred;
 }
