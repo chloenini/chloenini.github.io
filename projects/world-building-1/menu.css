@@ -1,0 +1,105 @@
+body {
+    
+    background: beige;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    display: block;
+    font-family: degular, sans-serif;
+    font-weight: 200;
+    font-size:20px;
+    cursor: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/255px-Flag_of_Lebanon.svg.png);, auto;
+
+}
+h1{
+font-family: mono45-headline, monospace;
+
+font-weight: 500;
+font-size: 100px;
+letter-spacing: -1px;
+font-style: normal;
+color: forestgreen;
+}
+
+p{
+    font-family: mono45-headline, monospace;
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: crimson;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: crimson;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.grow { 
+transition: all 1s ease-in-out; 
+}
+.author{
+    font-family: sculpin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.grow:hover { 
+transform: scale(1.2); 
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #F2E9BD;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    display: block;
+    font-family: europa, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+font-size: 10px;
+
+  }
+  h1{font-family: mono45-headline, monospace;
+
+font-weight: 500;
+font-size: 30px;
+letter-spacing: -1px;
+font-style: normal;
+color: indianred;
+
+  }
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 25px;
+}
+.author{
+    font-size: 10px;
+}
+h1{ font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+}
+}
+
