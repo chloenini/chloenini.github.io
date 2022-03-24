@@ -1,0 +1,53 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	margin: 0;
+
+}
+#container{
+	width: 100vw;
+	height: 100vh;
+	background: #CEF4FF
+}
+.bubble{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	background: rgba(247, 255, 255, 0.5);
+	border: solid .1rem rgba(106, 198, 198, 0.2);
+	border-radius: 50%;
+	box-shadow: inset -.3rem -.3rem .8rem rgba(106, 198, 198, 0.3);
+	cursor: pointer;
+}
+p{
+	font-family: blow-up, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(254, 107, 39 );
+    stroke: 1pt;
+    font-size: 8em;
+    position: fixed;
+    left: 2em;
+
+}
+img{
+	width: 30%;
+	position: absolute;
+	right: -2.8em;
+	bottom:0em ;
+	
+}
+@media only screen and (max-width: 600px) {
+p{
+	font-size: 3.5em;
+	top: 7em;
+	left: 0em;
+}
+img{
+	width: 60%;
+}
+
+
+}
