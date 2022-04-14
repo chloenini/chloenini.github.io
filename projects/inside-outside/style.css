@@ -1,0 +1,14 @@
+h1{
+font-family: hero-new, sans-serif;
+font-weight: 900;
+font-style: normal;
+font-size: 7em;
+
+}
+body{
+    color: peru;
+    background-color: beige;
+    position: absolute;
+    top: 2em;
+    left: 10em;
+}
