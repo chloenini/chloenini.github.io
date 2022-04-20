@@ -48,7 +48,7 @@ h2{
     background: skyblue;
   }
   
-  //book detail is CSS that pertains to the details that will show when we click on a book 
+
   .book-detail {
     display: flex;
     margin-top: 30px;
