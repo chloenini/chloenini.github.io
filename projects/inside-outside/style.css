@@ -12,3 +12,10 @@ body{
     top: 2em;
     left: 30em;
 }
+
+.grid {
+    color:black;
+    height: 40px;
+    width: 50px;
+    display: flex;
+}

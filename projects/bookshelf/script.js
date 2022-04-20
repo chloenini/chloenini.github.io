@@ -12,8 +12,8 @@ var base = new Airtable({apiKey: 'keyQbDW1aQy6rVQXQ'}).base(
 //base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
 
 //ADD VIEW to get a select "view" "books" from table from airtable database
-//base("books").select({
-  view: "selfhelp"
+base("books").select({
+  
 }).eachPage(gotPageOfBooks, gotAllBooks);
 
 //empty array to hold our book data
