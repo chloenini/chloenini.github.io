@@ -97,47 +97,15 @@ function showBook(book, div) {
   bookDetail.classList.remove("hidden");
 }
 
+let myCursor = document.querySelector("#customCursor");
 
-
-
-// PART 1.1 > post list of book titles to site 
-// loop through the books and console log the data
-// function consoleLogBooks() {
-//     console.log("consoleLogBooks()");
-//     books.forEach((book) =>{
-//         console.log("Book:", book);
-//     });
-// }
-
-// function showBooks(){
-//     console.log("showBooks()");
-//     books.forEach((book) =>{
-//         const h2 = document.createElement("h2");
-//         h2.innerText = book.fields.title;
-//         document.body.appendChild(h2);
-//     });
-// }
-
-
-
-
-// PART 1.0 > Airtable boiler plate JS 
-// base('Table 1').select({
-//     // Selecting the first 10 records in Grid view:
-//     maxRecords: 10,
-//     view: "Grid view"
-// }).eachPage(function page(records, fetchNextPage) {
-//     // This function (`page`) will get called for each page of records.
-
-//     records.forEach(function(record) {
-//         console.log('Retrieved', record.get('Name'));
-//     });
-
-//     // To fetch the next page of records, call `fetchNextPage`.
-//     // If there are more records, `page` will get called again.
-//     // If there are no more records, `done` will get called.
-//     fetchNextPage();
-
-// }, function done(err) {
-//     if (err) { console.error(err); return; }
-// });
+window.addEventListener("mousemove", function(event){
+  
+  console.log(event);
+  console.log("X: ");
+  console.log(event.pageX);
+  console.log("Y: ")
+  console.log(event.pageY);
+  myCursor.style.top = (event.pageY - 2) + "px";
+  myCursor.style.left = (event.pageX - 2) + "px";
+});
