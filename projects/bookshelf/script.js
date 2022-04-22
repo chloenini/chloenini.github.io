@@ -106,6 +106,6 @@ window.addEventListener("mousemove", function(event){
   console.log(event.pageX);
   console.log("Y: ")
   console.log(event.pageY);
-  myCursor.style.top = (event.pageY - 2) + "px";
-  myCursor.style.left = (event.pageX - 2) + "px";
+  myCursor.style.top = (event.pageY - 0) + "px";
+  myCursor.style.left = (event.pageX - 0) + "px";
 });
