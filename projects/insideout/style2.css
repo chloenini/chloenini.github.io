@@ -1,0 +1,54 @@
+h1{
+    font-family: kings-caslon-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:10em;
+    color:#73493c;
+    position: absolute;
+    left: 1.9em;
+      
+    }
+    
+    body{
+      background-color: beige
+    }
+    
+    h2{
+      color:#73493c;
+      font-style:italic;
+      font-size: 4em;
+      position: absolute;
+      top: 4.4em;
+      left: 5em;
+      
+    }
+    
+    p{
+      position: absolute;
+      top: 18.5em;
+      color:#73493c;
+      font-size:1.5em;
+      left: 13em;
+    }
+    
+    button{
+        font-family: forma-djr-display, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: beige;
+        font-size: 1em;
+        padding:9.5px;
+        background-color:#73493c ;
+        border-radius:20px;
+        letter-spacing:0.045em;
+        position: absolute;
+        bottom: 4em;
+        left:42em;
+        text-decoration: none!important;
+        color: inherit;
+        
+        }
+        .noDecoration, a:link, a:visited {
+            text-decoration: none;
+            color: beige;
+        }
