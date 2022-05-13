@@ -12,7 +12,7 @@ h1{
 h2{
     font-size: 1.5em;
     position: absolute;
-    top: 11em;
+    top: 12em;
     left: 19em;
     font-family: bilo, sans-serif;
     font-weight: 600;
@@ -35,7 +35,7 @@ h1 .h4color{
 button{
     position: absolute;
     top: 13em;
-    left: 24em;
+    left: 26em;
     text-align: center;
     font-size: 1em;
 }
@@ -44,7 +44,7 @@ a:link{
   }
 .button-75 {
     position: absolute;
-    left: 28em;
+    left: 29em;
     text-align: center;
     color: green;
     top: 23em;

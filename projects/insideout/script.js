@@ -83,8 +83,31 @@ function showData() {
       destructionContainer.classList.add("natural");
     } else if (category == "socio-political causes") {
       destructionContainer.classList.add("politics");
+    } 
+    let subcategory = destruction[i].fields.subcategory[0];
+    if (subcategory == "conflict in middle eastern countries") {
+      destructionContainer.classList.add("middle");
+    } else if (subcategory == "final product is a consequence of destruction") {
+      destructionContainer.classList.add("consequence");
+    } else if (subcategory == "caused by fire") {
+      destructionContainer.classList.add("fire");
+    } else if (subcategory == "destruction caused by aquatic natural forces") {
+      destructionContainer.classList.add("aquatic");
+    } else if (subcategory == "self-destructive art") {
+      destructionContainer.classList.add("self");
+    } else if (subcategory == "destruction caused by earthquakes") {
+      destructionContainer.classList.add("earthquake");
+    } else if (subcategory == "something made out of destructed material") {
+      destructionContainer.classList.add("material");
+    }else if (subcategory == "active destruction as part of the piece") {
+      destructionContainer.classList.add("active");
+    }else if (subcategory == "ukrainian war") {
+      destructionContainer.classList.add("ukraine");
+    }else if (subcategory == "destruction caused by the power of wind") {
+      destructionContainer.classList.add("wind");
+    }else if (subcategory == "conflict from past centuries") {
+      destructionContainer.classList.add("past");
     }
-    // destructionContainer.classList.add(destruction[i].fields.category[0]);
     console.log(destructionContainer);
   }
   // loop through all the people listed in the Airtable data. Inside is the code we are applying for EACH person in the list of people.
@@ -162,68 +185,148 @@ resetButtton.addEventListener("click", function () {
   // destructionContainer.style.display = "block";
 });
 
-// destructionsContainer.appendChild(destructionContainer);
+let middleButton = document.getElementById("showMiddleButton");
+middleButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("middle");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let fireButton = document.getElementById("showFireButton");
+fireButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("fire");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let consequenceButton = document.getElementById("showConsequenceButton");
+consequenceButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("consequence");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let aquaticButton = document.getElementById("showAquaticButton");
+aquaticButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("aquatic");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let selfButton = document.getElementById("showSelfButton");
+selfButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("self");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let earthquakeButton = document.getElementById("showEarthquakeButton");
+earthquakeButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("earthquake");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let materialButton = document.getElementById("showMaterialButton");
+materialButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("material");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let activeButton = document.getElementById("showActiveButton");
+activeButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("active");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let ukraineButton = document.getElementById("showUkraineButton");
+ukraineButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("ukraine");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let windButton = document.getElementById("showWindButton");
+windButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("wind");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
+let pastButton = document.getElementById("showPastButton");
+pastButton.addEventListener("click", function () {
+  
+  destructionArray.forEach((div) => {
+    let subcategory = div.classList.contains("past");
+    console.log(subcategory);
+    if (subcategory == true) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  });
+});
 
-// let subcategory= destruction[i].fields.subcategory[0];
-//     if (category=="conflict in middle eastern countries"){
-//      destructionContainer.classList.add("middleeast");
-//     }
-//     else if (category=="self-destructive art"){
-//      destructionContainer.classList.add("selfdestructive");
-//     }
-//     else if (category=="something made out of destructed material"){
-//      destructionContainer.classList.add("destructedmaterial");
 
-//     else if (category=="caused by fire"){
-//      destructionContainer.classList.add("fire");
-
-//     else if (category=="destruction caused by earthquakes"){
-//      destructionContainer.classList.add("earthquakes");
-
-//     else if (category=="ukrainian war"){
-//      destructionContainer.classList.add("ukraine");
-
-//       else if (category=="active destruction as part of the piece"){
-//      destructionContainer.classList.add("active");
-
-//      else if (category=="destruction caused by the power of wind"){
-//      destructionContainer.classList.add("wind");
-
-//     else if (category=="conflict from past centuries"){
-//      destructionContainer.classList.add("past");
-
-//     else if (category=="final product is a consequence of destruction"){
-//      destructionContainer.classList.add("final");
-
-//       else if (category=="something made out of destructed material"){
-//      destructionContainer.classList.add("material");
-
-//         else if (category=="destruction caused by earthquakes and aquatic forces"){
-//      destructionContainer.classList.add("earthquakeaquatic");
-
-//           else if (category=="destruction caused by the power of wind"){
-//      destructionContainer.classList.add("wind");
-
-// //   function sortRatingHighLow(){
-// //     destructions.sort(function(a, b) {
-// //       // For any two songs in the songs array, compare them by their rating number
-// //      return b.fields.rating - a.fields.rating;
-// //     });
-// //   }
-
-// //   let sortLowHigh = document.getElementById('sortLowHigh');
-// //   sortLowHigh.addEventListener("click", function(){
-// //       // Clear the container div (remove all the previous elements)
-// //       const destructionsContainer = document.querySelector("#container");
-// //        destructionsContainer.innerHTML = "";
-// //        // Sort the songs array according to rating from low to high
-// //       sortRatingLowHigh();
-// //       showData();
-//   });
-
-// function sortRatingLowHigh(){
-//    destructions.sort(function(a, b) {
-//      // For any two songs in the songs array, compare them by their rating number
-//      // (NOTE THE ORDER HAS SWITCHED)
-//      return a.fields.rating - b.fields.rating;
-//    });

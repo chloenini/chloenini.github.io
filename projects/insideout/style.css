@@ -63,3 +63,15 @@ html{
   letter-spacing:0.045em;
   
   }
+  #showArtButton{
+    background-color: #bd2d05;
+    border-radius: 10px;
+  }
+#showNaturalButton{
+  background-color: #bd2d05;
+    border-radius: 10px;
+}
+#showSocioButton{
+  background-color: #bd2d05;
+    border-radius: 10px;
+}
